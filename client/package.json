@@ -1,0 +1,22 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "nodemon": "^3.1.9",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "snowpack": "^3.2.2"
+  }
+}
