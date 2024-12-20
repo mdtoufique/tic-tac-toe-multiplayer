@@ -74,7 +74,7 @@ document.querySelectorAll(".btn").forEach((e) => {
 					pcMoveButton.style.color = "blue";
 					let pcMovesArray = pcMoves.split('').map(num => parseInt(num, 10));  // [4, 5, 2]
 					let humanMovesArray = humanMoves.split('').map(num => parseInt(num, 10));  // [1, 3, 6]
-
+					console.log(response,pcMove);
 					// Calculate total length (pcMovesArray.length + humanMovesArray.length)
 					let totalLength = pcMovesArray.length + humanMovesArray.length;
 					if (checkWinner(pcMovesArray)) 
