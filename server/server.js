@@ -28,7 +28,6 @@ app.use(
 	cors({
 	  origin: [
 		"http://localhost:8080",
-		"http://192.168.0.107:8080",
 		"https://admin.socket.io",
 		"http://localhost:8080/scriptpc",
 		"http://localhost:8080/pcindex.html",
