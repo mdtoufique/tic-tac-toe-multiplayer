@@ -16,7 +16,7 @@ document.getElementById("find").addEventListener("click", function () {
 	document.getElementById("find").disabled = true;
 	document.getElementById("find").style.display = "none";
 	socket.emit("find");
-	createGoToHomeButton();
+
 });
 
 document.getElementById("pcmode").addEventListener("click", function () {
