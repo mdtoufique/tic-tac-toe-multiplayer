@@ -32,7 +32,7 @@ app.use(
 		"http://localhost:8080/scriptpc",
 		"http://localhost:8080/pcindex.html",
 		"https://mdtoufique.github.io/tic-tac-toe-multiplayer",
-		"https://mdtoufique.github.io/tic-tac-toe-multiplayer/scriptpc",
+		"https://mdtoufique.github.io/tic-tac-toe-multiplayer/scriptpc.js",
 		"https://mdtoufique.github.io/tic-tac-toe-multiplayer/pcindex.html",
 		"https://mdtoufique.github.io",
 	  ],
