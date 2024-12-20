@@ -1,7 +1,7 @@
 
 import { io, Socket } from "socket.io-client";
 console.log("hi 1");
-const socket = io("http://192.168.0.107:3000");
+const socket = io("https://tic-tac-toe-multiplayer-three.vercel.app");
 
 console.log("hi 2");
 document.getElementById("loading").style.display = "none";
