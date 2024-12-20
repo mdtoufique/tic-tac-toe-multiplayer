@@ -23,10 +23,7 @@ document.getElementById("pcmode").addEventListener("click", function () {
 	console.log("hello button");
 	var path = window.location.pathname;
 	console.log(path);
-		if(path != "/") {
-		window.location.replace("/");
-		}
-    window.location.href = "/pcindex.html";
+    window.location.href = "pcindex.html";
 });
 
 document.querySelectorAll(".btn").forEach((e) => {
