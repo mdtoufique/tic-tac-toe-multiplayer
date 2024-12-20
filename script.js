@@ -1,6 +1,6 @@
 //import { io, Socket } from "socket.io-client";
 
-const socket = io("https://tic-tac-toe-multiplayer-three.vercel.app");
+const socket = io("https://tic-tac-toe-multiplayer-e1cr.onrender.com");
 
 console.log("hi 2");
 document.getElementById("loading").style.display = "none";
