@@ -57,7 +57,7 @@ document.querySelectorAll(".btn").forEach((e) => {
 		else 
 		{
 			axios
-				.get("http://localhost:3000/pcserver", {
+				.get("https://tic-tac-toe-multiplayer-three.vercel.app/pcserver", {
 					params: {
 						moves: pcMoves + "+" + humanMoves,
 					},
