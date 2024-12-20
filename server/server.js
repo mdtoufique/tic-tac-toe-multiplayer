@@ -35,6 +35,7 @@ app.use(
 		"https://mdtoufique.github.io/tic-tac-toe-multiplayer",
 		"https://mdtoufique.github.io/tic-tac-toe-multiplayer/scriptpc",
 		"https://mdtoufique.github.io/tic-tac-toe-multiplayer/pcindex.html",
+		"https://mdtoufique.github.io/",
 	  ],
 	  credentials: true,
 	})
@@ -53,6 +54,7 @@ const io = require("socket.io")(server, {
 			"https://mdtoufique.github.io/tic-tac-toe-multiplayer",
 			"https://mdtoufique.github.io/tic-tac-toe-multiplayer/scriptpc",
 			"https://mdtoufique.github.io/tic-tac-toe-multiplayer/pcindex.html",
+			"https://mdtoufique.github.io/",
 		],
 		credentials: true,
 	},
