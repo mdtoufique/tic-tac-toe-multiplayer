@@ -20,6 +20,7 @@ document.getElementById("find").addEventListener("click", function () {
 
 document.getElementById("pcmode").addEventListener("click", function () {
     // Redirect to the PC mode page
+	console.log("hello button");
     window.location.href = "/pcindex.html";
 });
 
