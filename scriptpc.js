@@ -57,7 +57,7 @@ document.querySelectorAll(".btn").forEach((e) => {
 		else 
 		{
 			axios
-				.get("https://tic-tac-toe-multiplayer-e1cr.onrender.com/", {
+				.get("https://tic-tac-toe-multiplayer-e1cr.onrender.com/pcserver", {
 					params: {
 						moves: pcMoves + "+" + humanMoves,
 					},
