@@ -306,7 +306,7 @@ app.get("/pcserver", (req, res) => {
     	//console.log("Received moves: ", moves);
 		let predpcMoves=getNextMove(moves);
 		nextMove= predpcMoves[random_num(predpcMoves.length)];
-		console.log("pcserver running");
+		//console.log("pcserver running");
 		let availableNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 		const keyNumbers = moves.split('+').join('').split('');
 		availableNumbers = availableNumbers.filter(num => !keyNumbers.includes(num.toString()));
