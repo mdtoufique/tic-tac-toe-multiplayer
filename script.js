@@ -19,11 +19,11 @@
 // 	socket.emit("find");
 // });
 
-// document.getElementById("pcmode").addEventListener("click", function () {
-//     // Redirect to the PC mode page
-// 	console.log("hello button");
-//     window.location.href = "/pcindex.html";
-// });
+document.getElementById("pcmode").addEventListener("click", function () {
+    // Redirect to the PC mode page
+	console.log("hello button");
+    window.location.href = "/pcindex.html";
+});
 
 // document.querySelectorAll(".btn").forEach((e) => {
 // 	e.disabled = true;
