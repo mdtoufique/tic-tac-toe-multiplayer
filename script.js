@@ -1,6 +1,5 @@
-
 import { io, Socket } from "socket.io-client";
-console.log("hi 1");
+
 const socket = io("https://tic-tac-toe-multiplayer-three.vercel.app");
 
 console.log("hi 2");
