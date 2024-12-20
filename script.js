@@ -22,7 +22,7 @@
 document.getElementById("pcmode").addEventListener("click", function () {
     // Redirect to the PC mode page
 	console.log("hello button");
-    window.location.href = "/client/pcindex.html";
+    window.location.href = "client/pcindex.html";
 });
 
 // document.querySelectorAll(".btn").forEach((e) => {
