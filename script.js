@@ -15,6 +15,7 @@ document.getElementById("find").addEventListener("click", function () {
 	document.getElementById("loading").style.display = "block";
 	document.getElementById("find").disabled = true;
 	document.getElementById("find").style.display = "none";
+	document.getElementById("find").style.display = "block";
 	socket.emit("find");
 
 });
