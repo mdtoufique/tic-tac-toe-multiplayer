@@ -10,6 +10,7 @@ document.getElementById("find").addEventListener("click", function () {
 	document.querySelectorAll(".btn").forEach((e) => {
 		e.innerText = "";
 	});
+	document.getElementById("hom").style.display = "block";
 	document.getElementById("pcmode").style.display = "none";
 	document.getElementById("form").style.display = "none";
 	document.getElementById("loading").style.display = "block";
