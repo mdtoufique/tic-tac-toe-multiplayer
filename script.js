@@ -1,4 +1,13 @@
  console.log("hi 7");
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("hi 0");
+
+    document.getElementById("pcmode").addEventListener("click", function () {
+        // Redirect to the PC mode page
+        console.log("hello button");
+        window.location.href = "client/pcindex.html";
+    });
+});
 // import { io, Socket } from "socket.io-client";
 // console.log("hi 1");
 // const socket = io("http://192.168.0.107:3000");
@@ -19,11 +28,11 @@
 // 	socket.emit("find");
 // });
 
-document.getElementById("pcmode").addEventListener("click", function () {
-    // Redirect to the PC mode page
-	console.log("hello button");
-    window.location.href = "/pcindex.html";
-});
+// document.getElementById("pcmode").addEventListener("click", function () {
+//     // Redirect to the PC mode page
+// 	console.log("hello button");
+//     window.location.href = "/pcindex.html";
+// });
 
 // document.querySelectorAll(".btn").forEach((e) => {
 // 	e.disabled = true;
